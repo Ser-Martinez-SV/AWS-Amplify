@@ -1,0 +1,10 @@
+{
+  "version": "1",
+  "data": {
+    "url": "",
+    "aws_region": "",
+    "default_authorization_type": "API_KEY",
+    "authorization_types": ["API_KEY"],
+    "api_key": ""
+  }
+}
