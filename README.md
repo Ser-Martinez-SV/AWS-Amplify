@@ -19,7 +19,7 @@ npm run web
 npm run build:web
 ```
 
-El resultado estático se genera en `dist/`. Conecta el repositorio en Amplify Hosting y usa `amplify.yml`: el paso backend despliega la API y la tabla, y el paso frontend genera la web. Configura el rol de despliegue de Amplify con permisos para desplegar el backend. Las ramas conectadas a Amplify tendrán sus propios recursos backend.
+El resultado estático se genera en `dist/`. Conecta el repositorio en Amplify Hosting y usa `amplify.yml`: antes del despliegue del backend se instalan las dependencias, incluida la CLI `ampx`; después, Amplify despliega la API y la tabla y genera la web. Configura el rol de despliegue de Amplify con permisos para desplegar el backend. Las ramas conectadas a Amplify tendrán sus propios recursos backend.
 
 ## Prueba de alumno
 
